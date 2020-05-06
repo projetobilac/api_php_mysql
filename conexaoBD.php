@@ -1,14 +1,11 @@
 <?php
 
-    //Definindo constantes
+//Definindo constantes
+define('HOST','localhost');
+define('USER','id13480313_recicla');
+define('PASS','m53*K<mMpp]WsU$H');
+define('DB','id13480313_reciclasanja');
 
-    define('HOST', 'localhost');
-    define('USER', 'usuario');
-    define('PASS', 'senha');
-    define('DB', 'banco');
-    
-
-    //CONECTANDO O BANCO DE DADOS
-    $con = mysqli_connect(HOST,USER,PASS,DB) or die ('Unable to Connect');
-    
+//Conectando o banco de dados
+$con = mysqli_connect(HOST,USER,PASS,DB) or die('Unable to Connect');
 ?>
